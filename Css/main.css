@@ -45,4 +45,26 @@ form button {
     color: #d88771;
     background: var(--text-color);
     cursor: pointer;
+    transition: all .3 ease;
+}
+
+form button:hover {
+    background: #d88771;
+    color: var(--text-color);
+}
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: var(--text-color);
 }
