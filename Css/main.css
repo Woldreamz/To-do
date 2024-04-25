@@ -45,7 +45,7 @@ form button {
     color: #d88771;
     background: var(--text-color);
     cursor: pointer;
-    transition: all .3 ease;
+    transition: all  .3 ease;
 }
 
 form button:hover {
